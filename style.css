@@ -1,0 +1,43 @@
+
+header{
+    text-align: center;
+    margin: 0 auto;
+    width: 80vw;
+}
+main{
+    background-color: dimgray;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 80vw;
+}
+
+#h3-bgc {
+   
+    background-color: crimson;
+}
+
+main div img{
+    border-left:5px solid crimson;
+    margin-top: 30px;
+    height: auto;
+}
+
+.Zitat{
+    border: 2px solid rgb(119, 10, 32);
+    width: 50vw;
+    margin-bottom: 20px;
+    padding: 1em;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.542);
+}
+
+footer{
+    margin: 10px auto auto auto;
+    text-align: center;
+    background-color: crimson;
+    width: 80vw;
+}
