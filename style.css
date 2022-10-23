@@ -1,4 +1,8 @@
 
+*{
+    box-sizing: border-box;
+    
+}
 header{
     text-align: center;
     margin: 0 auto;
@@ -12,6 +16,7 @@ main{
     justify-content: center;
     flex-direction: column;
     margin: 0 auto;
+    padding: 1rem;
     width: 80vw;
 }
 
@@ -20,6 +25,21 @@ main{
     background-color: crimson;
 }
 
+h2{
+    text-align: center;
+}
+.hoverschrift{
+    transition:500ms;
+    
+
+}
+.hoverschrift:hover{
+    transform: scale(1.1);
+    background-color: rgb(13, 12, 12);
+    color: crimson;
+    padding: 1rem;
+    text-align: justify;
+}
 main div img{
     border-left:5px solid crimson;
     margin-top: 30px;
@@ -33,6 +53,13 @@ main div img{
     padding: 1em;
     color: whitesmoke;
     background-color: rgba(0, 0, 0, 0.542);
+    transition:500ms;
+    
+}
+.Zitat:hover{
+    transform: scale(1.5);
+    background-color: rgb(13, 12, 12);
+    color: crimson;
 }
 
 footer{
